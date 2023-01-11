@@ -12,21 +12,21 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!--[if lt IE 9]>
-    <script src="{{asset('js/html5shiv.js')}}"></script>
+    <script src="{{asset('assets/js/html5shiv.js')}}"></script>
     <![endif]-->
 
     <!-- CSS Files
     ================================================== -->
-    <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/jpreloader.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/animate.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/owl.carousel.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('css/style.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/bootstrap.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/jpreloader.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/animate.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" type="text/css">
     <!-- custom background -->
-    <link rel="stylesheet" href="{{asset('css/bg.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{asset('assets/css/bg.css')}}" type="text/css">
     <!-- color scheme -->
-    <link rel="stylesheet" href="{{asset('css/color.css')}}" type="text/css" id="colors">
+    <link rel="stylesheet" href="{{asset('assets/css/color.css')}}" type="text/css" id="colors">
   @yield('style')
 </head>
 
@@ -57,19 +57,19 @@
 
 <!-- Javascript Files
 ================================================== -->
-<script src="{{asset('js/jquery.min.js')}}"></script>
-<script src="{{asset('js/jpreLoader.js')}}"></script>
-<script src="{{asset('js/bootstrap.min.js')}}"></script>
-<script src="{{asset('js/jquery.isotope.min.js')}}"></script>
-<script src="{{asset('js/easing.js')}}"></script>
-<script src="{{asset('js/owl.carousel.js')}}"></script>
-<script src="{{asset('js/jquery.countTo.js')}}"></script>
-<script src="{{asset('js/validation.js')}}"></script>
-<script src="{{asset('js/wow.min.js')}}"></script>
-<script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
-<script src="{{asset('js/enquire.min.js')}}"></script>
-<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
-<script src="{{asset('js/designesia.js')}}"></script>
+<script src="{{asset('assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('assets/js/jpreLoader.js')}}"></script>
+<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/js/jquery.isotope.min.js')}}"></script>
+<script src="{{asset('assets/js/easing.js')}}"></script>
+<script src="{{asset('assets/js/owl.carousel.js')}}"></script>
+<script src="{{asset('assets/js/jquery.countTo.js')}}"></script>
+<script src="{{asset('assets/js/validation.js')}}"></script>
+<script src="{{asset('assets/js/wow.min.js')}}"></script>
+<script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{asset('assets/js/enquire.min.js')}}"></script>
+<script src="{{asset('assets/js/jquery.stellar.min.js')}}"></script>
+<script src="{{asset('assets/js/designesia.js')}}"></script>
 @yield('js')
 
 {{--<script src="js/jquery.min.js"></script>--}}

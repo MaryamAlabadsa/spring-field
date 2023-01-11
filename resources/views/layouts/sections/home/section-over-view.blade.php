@@ -25,7 +25,7 @@
             </div>
 
             <div class="col-md-6" style="background-size: cover;">
-                <img src="images/misc/team-1.png" class="img-responsive mt-20" alt="">
+                <img src="assets/images/misc/team-1.png" class="img-responsive mt-20" alt="">
             </div>
 
             <div class="clearfix" style="background-size: cover;"></div>

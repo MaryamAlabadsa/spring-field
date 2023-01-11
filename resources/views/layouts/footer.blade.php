@@ -30,7 +30,7 @@
             </div>
 
             <div class="col-md-4">
-                <img src="{{asset('images/logo.png')}}" class="logo-small" alt=""><br>
+                <img src="{{asset('assets/images/logo.png')}}" class="logo-small" alt=""><br>
 
                 <div class="social-icons">
                     <a href="#"><i class="fa fa-facebook fa-lg"></i></a>

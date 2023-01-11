@@ -12,21 +12,25 @@
                             <div class="owl-wrapper"
                                  style="width: 2100px; left: 0px; display: block; transition: all 800ms ease 0s; transform: translate3d(-525px, 0px, 0px);">
                                 @foreach($comments as $comment)
-                                <div class="owl-item" style="width: 525px;">
-                                    <li>
-                                        {{$comment->comment_text}}
-                                        <span>{{$comment->sender_name}}</span>
-                                    </li>
-                                </div>
+                                    <div class="owl-item" style="width: 525px;">
+                                        <li>
+                                            {{$comment->comment_text}}
+                                            <span>{{$comment->sender_name}}</span>
+                                        </li>
+                                    </div>
                                 @endforeach
                             </div>
                         </div>
 
                         <div class="owl-controls clickable">
                             <div class="owl-pagination">
-                                <div class="owl-page"><span class="owl-item"></span></div>
-                                <div class="owl-page"><span class="owl-item"></span></div>
-                                <div class="owl-page active"><span class="owl-item"></span></div>
+                                @for ($i = 0; $i < count($comments); $i++)
+                                    @if($i==0)
+                                        <div class="owl-page active"><span class="owl-item"></span></div>
+                                    @else
+                                        <div class="owl-page"><span class="owl-item"></span></div>
+                                    @endif
+                                @endfor
                             </div>
                         </div>
                     </ul>
@@ -34,7 +38,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <img src="images/misc/team-1.png" class="img-responsive mt-20" alt="">
+                    <img src="assets/images/misc/team-1.png" class="img-responsive mt-20" alt="">
                 </div>
 
                 <div class="clearfix"></div>

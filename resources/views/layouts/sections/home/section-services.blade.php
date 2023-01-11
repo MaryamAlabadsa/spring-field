@@ -15,7 +15,7 @@
                                     <i class="fa fa-plus btn-action btn-action-hide"></i></a>
                             </span>
                     <span class="bg-overlay"></span>
-                    <img src="images/services/pic_1.jpg" class="img-responsive" alt="">
+                    <img src="assets/images/services/pic_1.jpg" class="img-responsive" alt="">
                 </figure>
 
                 <h3>General Constructing</h3>
@@ -31,7 +31,7 @@
                                     <i class="fa fa-plus btn-action btn-action-hide"></i></a>
                             </span>
                     <span class="bg-overlay"></span>
-                    <img src="images/services/pic_2.jpg" class="img-responsive" alt="">
+                    <img src="assets/images/services/pic_2.jpg" class="img-responsive" alt="">
                 </figure>
 
                 <h3>House Remodel</h3>
@@ -47,7 +47,7 @@
                                     <i class="fa fa-plus btn-action btn-action-hide"></i></a>
                             </span>
                     <span class="bg-overlay"></span>
-                    <img src="images/services/pic_3.jpg" class="img-responsive" alt="">
+                    <img src="assets/images/services/pic_3.jpg" class="img-responsive" alt="">
                 </figure>
 
                 <h3>Interior Design
@@ -66,7 +66,7 @@
                                     <i class="fa fa-plus btn-action btn-action-hide"></i></a>
                             </span>
                     <span class="bg-overlay"></span>
-                    <img src="images/services/pic_4.jpg" class="img-responsive" alt="">
+                    <img src="assets/images/services/pic_4.jpg" class="img-responsive" alt="">
                 </figure>
 
                 <h3>Floors & Roofs</h3>
@@ -82,7 +82,7 @@
                                     <i class="fa fa-plus btn-action btn-action-hide"></i></a>
                             </span>
                     <span class="bg-overlay"></span>
-                    <img src="images/services/pic_5.jpg" class="img-responsive" alt="">
+                    <img src="assets/images/services/pic_5.jpg" class="img-responsive" alt="">
                 </figure>
 
                 <h3>Plumbing</h3>
@@ -98,7 +98,7 @@
                                     <i class="fa fa-plus btn-action btn-action-hide"></i></a>
                             </span>
                     <span class="bg-overlay"></span>
-                    <img src="images/services/pic_6.jpg" class="img-responsive" alt="">
+                    <img src="assets/images/services/pic_6.jpg" class="img-responsive" alt="">
                 </figure>
 
                 <h3>Electricity</h3>
