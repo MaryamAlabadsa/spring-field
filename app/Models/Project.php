@@ -62,7 +62,7 @@ class Project extends Model
         if ($this->projectServices->count()) {
             foreach ($this->projectServices as $service) {
                 $s = Service::where('id', $service->service_id)->first();
-                array_push($services,$s->title);
+                array_push($services,$s->id);
             }
         }
 //        else {

@@ -5,11 +5,10 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="spacer-double"></div>
-                    <h1 class="size40 wow fadeInRight" data-wow-delay=".5s">HIGH INNOVATION COMPANY<span class="tiny-border"></span></h1>
+                    <h1 class="size40 wow fadeInRight" data-wow-delay=".5s">SPRING FIELD COMPANY<span class="tiny-border"></span></h1>
                     <div class="spacer-single"></div>
                     <p class="wow fadeInRight" data-wow-delay=".8s">
-                        We are team based on Brookylin. Our expertise on construction. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-                    </p>
+                        A modern company specialized in Architectural Engineering Design (Interior - Exterior), Structural Design, Contracting and Consultancy services.                    </p>
                     <div class="spacer-single"></div>
                     <a href="#section-services" class="btn btn-custom">Our Services</a>&nbsp;&nbsp;&nbsp;<a href="#section-contact" class="btn btn-line-white btn-fx light wow fadeInRight" data-wow-delay="1.1s">Contact Us</a>
                 </div>

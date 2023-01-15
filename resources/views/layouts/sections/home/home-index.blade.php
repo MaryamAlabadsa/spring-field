@@ -1,165 +1,306 @@
 @extends('master')
-{{--@section('style')--}}
-{{--    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">--}}
-{{--    <link rel="stylesheet" href="css/jpreloader.css" type="text/css">--}}
-{{--    <link rel="stylesheet" href="css/animate.css" type="text/css">--}}
-{{--    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">--}}
-{{--    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">--}}
-{{--    <link rel="stylesheet" href="css/style.css" type="text/css">--}}
-
-{{--@endsection--}}
 
 @section('content')
-    @include('layouts/slider')
-
-    @include('layouts/slider-2')
-
-    <!-- section begin -->
-    {{--                section-fun-facts  --}}
-    <!-- section close -->
-
-
-    @include('layouts.sections.home.section-our-story')
-
-    @include('layouts.sections.home.section-over-view')
-
-
-    <!-- content begin -->
-    <div id="content">
-        @include('layouts.sections.home.section_services_details')
-
-        {{--        <!-- section over view begin -->--}}
-        @include('layouts.sections.home.section-how-we-work')
+        <!-- section begin -->
+        @include('layouts.slider')
         <!-- section close -->
 
         <!-- section begin -->
-
-        @include('layouts.sections.home.section-portfolio')
+        @include('layouts.slider-2');
+        <!-- section close -->
 
         <!-- section begin -->
-        @include('layouts.sections.home.section-comments')
-        {{--        <!-- section close -->--}}
+        @include('layouts.sections.home.section-fun-facts')
+        <!-- section begin -->
+        @include('layouts.sections.home.section-our-story')
+        @include('layouts.sections.home.section-over-view')
+        <!-- section close -->
 
-        {{--        <!-- section team begin -->--}}
-        @include('layouts.sections.home.section-team')
-        {{--        <!-- section close -->--}}
+
+        <!-- content begin -->
+        <div id="content">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <p class="intro mb30">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <div class="timeline">
+                            <div class="tl-block">
+                                <div class="tl-time">
+                                    <h3>2006</h3>
+                                </div>
+                                <div class="tl-bar">
+                                    <div class="tl-line"></div>
+                                </div>
+                                <div class="tl-message">
+                                    <div class="tl-icon">&nbsp;</div>
+                                    <div class="tl-main">
+                                        <h3>Beginning Our Services
+                                        </h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tl-block">
+                                <div class="tl-time">
+                                    <h3>2008</h3>
+                                </div>
+                                <div class="tl-bar">
+                                    <div class="tl-line"></div>
+                                </div>
+                                <div class="tl-message">
+                                    <div class="tl-icon">&nbsp;</div>
+                                    <div class="tl-main">
+                                        <h3>Offering More Services
+                                        </h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tl-block">
+                                <div class="tl-time">
+                                    <h3>2009</h3>
+                                </div>
+                                <div class="tl-bar">
+                                    <div class="tl-line"></div>
+                                </div>
+                                <div class="tl-message">
+                                    <div class="tl-icon">&nbsp;</div>
+                                    <div class="tl-main">
+                                        <h3>Opening Our First Branch Office
+                                        </h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tl-block">
+                                <div class="tl-time">
+                                    <h3>2012</h3>
+                                </div>
+                                <div class="tl-bar">
+                                    <div class="tl-line"></div>
+                                </div>
+                                <div class="tl-message">
+                                    <div class="tl-icon">&nbsp;</div>
+                                    <div class="tl-main">
+                                        <h3>Expansion and Transformations
+                                        </h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tl-block">
+                                <div class="tl-time">
+                                    <h3>2014</h3>
+                                </div>
+                                <div class="tl-bar">
+                                    <div class="tl-line"></div>
+                                </div>
+                                <div class="tl-message">
+                                    <div class="tl-icon">&nbsp;</div>
+                                    <div class="tl-main">
+                                        <h3>Offering Franchise Opportunity
+                                        </h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tl-block">
+                                <div class="tl-time">
+                                    <h3>2016</h3>
+                                </div>
+                                <div class="tl-bar">
+                                    <div class="tl-line"></div>
+                                </div>
+                                <div class="tl-message">
+                                    <div class="tl-icon">&nbsp;</div>
+                                    <div class="tl-main">
+                                        <h3>Consistent Innovation
+                                        </h3>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                                        nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
 
-        {{--        <!-- section news begin -->--}}
-        @include('layouts.sections.home.section-news')
-        {{--        <!-- section close -->--}}
-        {{--        <!-- section news begin -->--}}
-        @include('layouts.sections.home.section-contact')
-    </div>
+                    <aside id="sidebar" class="col-md-3">
+                        <div class="widget">
+                            <ul id="services-list">
+                                <li><a href="#section-deco-2">Company Overview</a></li>
+                                <li class="#section-team"><a href="about-history.html">Company History</a></li>
+                                <li><a href="#section-team">Our Team</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="widget">
+                            <div class="padding30 text-black" data-bgimage="url(images/background/banner-1.jpg)">
+                                <h4>Attention!</h4>
+                                Looking for best partner for your next construction works? Sed ut perspiciatis unde
+                                omnis iste natus error sit voluptatem.
+                                <div class="text-center">
+                                    <a href="#section-contact" class="btn btn-line-black btn-fx mt20">Hire Us Now</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </aside>
+
+                </div>
+            </div>
+            <!-- section close -->
+
+            <!-- section close -->
+            <section id="section-services" class="text-light" data-bgcolor="#222222">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 class="wow fadeInUp">Our Services<span class="tiny-border"></span></h2>
+                        </div>
+
+                        <div class="spacer-single"></div>
+
+                        <div class="col-md-4 col-sm-6 mb30">
+                            <figure class="pic-hover hover-scale mb20">
+                            <span class="center-xy">
+                                <a href="">
+                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
+                            </span>
+                                <span class="bg-overlay"></span>
+                                <img src="images/services/pic_1.jpg" class="img-responsive" alt="">
+                            </figure>
+
+                            <h3>General Constructing</h3>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb30">
+                            <figure class="pic-hover hover-scale mb20">
+                            <span class="center-xy">
+                                <a href="">
+                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
+                            </span>
+                                <span class="bg-overlay"></span>
+                                <img src="images/services/pic_2.jpg" class="img-responsive" alt="">
+                            </figure>
+
+                            <h3>House Remodel</h3>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb30">
+                            <figure class="pic-hover hover-scale mb20">
+                            <span class="center-xy">
+                                <a href="">
+                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
+                            </span>
+                                <span class="bg-overlay"></span>
+                                <img src="images/services/pic_3.jpg" class="img-responsive" alt="">
+                            </figure>
+
+                            <h3>Interior Design
+                            </h3>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-md-4 col-sm-6 mb30">
+                            <figure class="pic-hover hover-scale mb20">
+                            <span class="center-xy">
+                                <a href="">
+                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
+                            </span>
+                                <span class="bg-overlay"></span>
+                                <img src="images/services/pic_4.jpg" class="img-responsive" alt="">
+                            </figure>
+
+                            <h3>Floors & Roofs</h3>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb30">
+                            <figure class="pic-hover hover-scale mb20">
+                            <span class="center-xy">
+                                <a href="">
+                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
+                            </span>
+                                <span class="bg-overlay"></span>
+                                <img src="images/services/pic_5.jpg" class="img-responsive" alt="">
+                            </figure>
+
+                            <h3>Plumbing</h3>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 mb30">
+                            <figure class="pic-hover hover-scale mb20">
+                            <span class="center-xy">
+                                <a href="">
+                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
+                            </span>
+                                <span class="bg-overlay"></span>
+                                <img src="images/services/pic_6.jpg" class="img-responsive" alt="">
+                            </figure>
+
+                            <h3>Electricity</h3>
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                            laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+            <!-- section begin -->
+            @include('layouts.sections.home.section-portfolio')
+
+            <!-- section begin -->
+            @include('layouts.sections.home.section-comments')
+
+            <!-- section close -->
+
+            <!-- section begin -->
+            @include('layouts.sections.home.section-team')
+            <!-- section close -->
+
+
+            <!-- section begin -->
+            @include('layouts.sections.home.section-news')
+
+            @include('layouts.sections.home.section-contact')
 @endsection
-
-@section('js')
-    <script type="text/javascript">
-
-        function truncateText(obj) {
-            // console.log(obj);
-            if ($(obj).parent().find('p').css('height') == '50px') {
-                $(obj).parent().find('p').css('max-height', '245px');
-                $(obj).parent().find('p').css('height', '245px');
-                $(obj).text('load less');
-            } else {
-                $(obj).parent().find('p').css('max-height', '50px');
-                $(obj).parent().find('p').css('overflow', 'hidden');
-                $(obj).text('load more');
-
-            }
-        }
-
-        function filter_projects(className) {
-            $(document).ready(function () {
-                $('#filters li #' + className).click(function (e) {
-                    console.log('lllll');
-
-                    e.preventDefault();
-                    // var serviceId = $(this).data('filter');
-                    $.ajax({
-                        url: '/home/filter',
-                        data: {service_id: className},
-                        success: function (data) {
-                            // Clear the existing list of projects
-                            $('#gallery').empty();
-                            // Loop through the filtered results and add them to the list
-                            $.each(data, function (index, project) {
-                                $('#gallery').append(
-                                    '<div class="item residential isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); background-size: cover;">' +
-                                    '<div class="picframe" style="height: 258px; background-size: cover;">' +
-                                    '<a href="/postsOrders/' + project.id + '">' +
-                                    '<span class="overlay" style="opacity: 0;">' +
-                                    '<span class="pf_text">' +
-                                    '<span class="project-name">' + project.title + '</span>' +
-                                    '</span>' +
-                                    '</span>' +
-                                    '</a>' +
-                                    '<img src="https://via.placeholder.com/640x480.png/00cc77?text=laboriosam" alt="" style="width: 366px; height: 274px;">' +
-                                    // You can use the following line to include the project's main image instead of the placeholder image
-                                    // '<img src="' + project.main_image_link + '" alt="" style="width: 366px; height: 274px;">' +
-                                    '</div>' +
-                                    '</div>'
-                                );
-
-                            });
-                        }
-                    });
-                });
-            });
-
-            //
-            // $('#gallery').empty();
-            // $('#gallery').append( $('.'+className));
-            // $('.'+className).empty();
-            //
-            // $('.'+className).before($('.projectMainClass'))
-            // title = $(obj).attr('class');
-            // $("#gallery ").find(":not(." + title+")").fadeOut();
-            //
-            // $("#gallery").hide();  // show element with specific class
-            // // console.log($("#gallery ").find("." + title));
-            // $("#gallery ").find("." + title).fadeIn();
-        }
-
-        function serviceBtn(id) {
-            // document.getElementById('collapse1').addEventListener('click', function () {
-            s1=getComputedStyle( document.getElementById('collapse1')).display;
-            s2=getComputedStyle( document.getElementById('collapse2')).display;
-            s3=getComputedStyle( document.getElementById('collapse3')).display;
-            if (id === 1 && s1==='none') {
-                // document.getElementById('collapse1').classList.add('collapse.in');
-                // document.getElementById('collapse2').classList.add('collapse');
-                // document.getElementById('collapse3').classList.add('collapse');
-
-                // console.log(s1);
-                document.getElementById('collapse1').style.display='block';
-                document.getElementById('collapse2').style.display='none';
-                document.getElementById('collapse3').style.display='none'
-                // document.getElementById('img-collapse-main').style.display='none'
-                // document.getElementById('img-collapse-second').style.display='block'
-
-            } else if (id === 2&& s2==='none') {
-                document.getElementById('collapse1').style.display='none'
-                document.getElementById('collapse2').style.display='block'
-                document.getElementById('collapse3').style.display='none'
-
-            } else if (id === 3&& s3==='none') {
-                document.getElementById('collapse1').style.display='none'
-                document.getElementById('collapse3').style.display='block'
-                document.getElementById('collapse2').style.display='none'
-            } else if(s1==='block'||s2==='block'||s3==='block'){
-                document.getElementById('collapse1').style.display='none'
-                document.getElementById('collapse3').style.display='none'
-                document.getElementById('collapse2').style.display='none'
-                // document.getElementById('img-collapse-main').style.display='block'
-                // document.getElementById('img-collapse-second').style.display='none'
-
-            }
-
-        }
-
-    </script>
-
-@endsection
-

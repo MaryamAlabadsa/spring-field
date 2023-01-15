@@ -53,7 +53,7 @@
 
                             <div class="col-md-12">
                                 <div id='submit'>
-                                    <input type='submit' id='send_messagee' value='Send'
+                                    <input type='submit' id='send_message' value='Send'
                                            class="btn btn-line">
                                 </div>
                                 <div id='mail_success' class='success'>Your message has been sent

@@ -21,13 +21,13 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Project::factory()->count(15)->create();
-        Service::factory()->count(10)->create();
+        Project::factory()->count(5)->create();
+        Service::factory()->count(3)->create();
         Media::factory()->count(10)->create();
         Teams::factory()->count(10)->create();
         News::factory()->count(10)->create();
         Comment::factory()->count(4)->create();
-        ProjectServices::factory()->count(5)->create();
+        ProjectServices::factory()->count(10)->create();
         ProjectTeams::factory()->count(5)->create();
 
     }

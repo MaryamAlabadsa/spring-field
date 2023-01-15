@@ -14,8 +14,8 @@ class ProjectServicesFactory extends Factory
     public function definition()
     {
         return [
-            'project_id' => $this->faker->numberBetween(1,10),
-            'service_id' => $this->faker->numberBetween(1,10),
+            'project_id' => $this->faker->numberBetween(1,5),
+            'service_id' => $this->faker->numberBetween(1,3),
 
         ];
     }
