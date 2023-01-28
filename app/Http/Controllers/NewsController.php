@@ -32,11 +32,17 @@ class NewsController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \App\Http\Requests\StoreNewsRequest  $request
-     * @return \Illuminate\Http\Response
+     * @return string[]
      */
     public function store(StoreNewsRequest $request)
     {
-        //
+        News::create([
+            'title' => $request->title,
+            'description' => $request->description,
+            'completed_time' => $request->completed_time,
+        ]);
+
+        return ['message' => 'added Successfully'];
     }
 
     /**

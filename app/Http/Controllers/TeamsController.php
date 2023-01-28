@@ -32,11 +32,26 @@ class TeamsController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \App\Http\Requests\StoreTeamsRequest  $request
-     * @return \Illuminate\Http\Response
+     * @return string[]
      */
     public function store(StoreTeamsRequest $request)
     {
-        //
+        $file= $request->file('image');
+        $filename= date('YmdHi').$file->getClientOriginalName();
+        $file-> move(public_path('public/Image'), $filename);
+//         $filename;
+
+        Teams::create([
+            'image' => $filename,
+            'name' => $request->name,
+            'bio' => $request->bio,
+            'job_description' => $request->job_description,
+//            'first_user' => Auth::id(),
+        ]);
+
+        return ['message' => 'added Successfully',
+//            'data' => [PostResource::make($post)],
+        ];//
     }
 
     /**

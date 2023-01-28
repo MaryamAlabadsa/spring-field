@@ -26,8 +26,8 @@ class Project extends Model
         if ($this->media->count()) {
             foreach ($this->media as $medium) {
                 if ($medium->is_main)
-//                    return url('/storage/' . $medium->name);
-                    return $medium->name;
+                    return url('/public/image/' . $medium->name);
+//                    return $medium->name;
             }
         } else {
             return 'images/team/team_pic_3.jpg';
@@ -62,12 +62,33 @@ class Project extends Model
         if ($this->projectServices->count()) {
             foreach ($this->projectServices as $service) {
                 $s = Service::where('id', $service->service_id)->first();
-                array_push($services,$s->id);
+                array_push($services, $s->title);
             }
         }
-//        else {
-//            array_push($services, '');
-//        }
+        return $services;
+    }
+    public function getProjectServiceMmAttribute()
+    {
+        $services = [];
+
+        if ($this->projectServices->count()) {
+            foreach ($this->projectServices as $service) {
+                $s = Service::where('id', $service->service_id)->first();
+                array_push($services, $s->id);
+            }
+        }
+        return $services;
+    }
+
+    public function getProjectTeamMmAttribute()
+    {
+        $services = [];
+        if ($this->projectTeamMember && $this->projectTeamMember->count()) {
+            foreach ($this->projectTeamMember as $item) {
+                $s = Teams::where('id', $item->team_member_id)->first();
+                array_push($services, $s);
+            }
+        }
         return $services;
     }
 

@@ -10,7 +10,7 @@ margin:0px !important;
 }
 
 #revolution-slider{
-background:#222;
+background:#252a50;
 }
 
 .tp-caption{
@@ -57,7 +57,7 @@ line-height:1.7em;
 .big-black{
 font-size:52px;
 letter-spacing:-3px;
-color:#222;
+color:#252a50;
 }
 
 .big-white{
@@ -91,14 +91,14 @@ margin:0;
 .ultra-big-black{
 font-size:96px;
 font-weight:400;
-color:#222;
+color:#252a50;
 margin:0;
 line-height:72px;
 }
 
 
 a.btn-slider:hover{
-color:#222;
+color:#252a50;
 }
 
 .tp-caption.separator {

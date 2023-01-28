@@ -17,7 +17,7 @@ class Service extends Model
     }
     public function getImageLinkAttribute()
     {
-        return $this->image ? url('/storage/' . $this->image) : url("images/misc/pic_1.jpg");
+        return $this->image ? url('/public/image/' . $this->image) : url("images/misc/pic_1.jpg");
     }
 
 }

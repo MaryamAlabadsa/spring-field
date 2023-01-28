@@ -1,5 +1,5 @@
 
-<section id="section-services" class="text-light" data-bgcolor="#222222" style="background-color: rgb(34, 34, 34); background-size: cover;">
+<section id="section-services" class="text-light" data-bgcolor="#252a50" style="background-color: rgb(34, 34, 34); background-size: cover;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

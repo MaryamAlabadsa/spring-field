@@ -23,7 +23,8 @@ Route::get('/', function () {
     return redirect(route('projects.getData'));
 });
 Route::get('/home', [\App\Http\Controllers\ProjectController::class, 'index'])->name('projects.getData');
+Route::get('/home/{id}', [\App\Http\Controllers\ProjectController::class, 'indexvv']);
 Route::get('/home/filter', [\App\Http\Controllers\ProjectController::class, 'filter'])->name('projects.filter');
-Route::get('/postsOrders/{id}', [\App\Http\Controllers\ProjectController::class, 'show'])->name('projects.details');
+//Route::get('/postsOrders/{id}', [\App\Http\Controllers\ProjectController::class, 'show'])->name('projects.details');
 Route::get('/download-pdf', [\App\Http\Controllers\ProjectController::class, 'downloadPDF']);
 Route::post('/home/sendEmail', [\App\Http\Controllers\ContactFormController::class, 'sendEmail']);

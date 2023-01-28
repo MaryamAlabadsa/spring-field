@@ -78,11 +78,11 @@ color:rgba(255,255,255,.5);
 
 
 #filters a:hover {
-	color:#111;
+	color:#252a50;
 }
 
 #filters a.selected {
-color: #111;
+color: #252a50;
 }
 
 .text-light #filters a.selected {

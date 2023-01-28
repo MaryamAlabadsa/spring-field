@@ -16,12 +16,10 @@
                             </div>
 
                             <div class="post-text">
-                                <h3><a href="css/#">{{$news->title}}</a></h3>
-                                <p>
+                                <button style="font-size: 16px;background: none;border: none;font-style: italic;"
+                                        onclick="showNews(this)">{{$news->title}}</button>
+                                <p class="hide">
                                     {{$news->description}}
-                                    <br>
-                                    {{--                                    <a href="#" class="read_more mt10">read more <i--}}
-                                    {{--                                            class="fa fa-chevron-right id-color"></i></a>--}}
                                 </p>
                             </div>
 

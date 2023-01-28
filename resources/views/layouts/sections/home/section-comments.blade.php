@@ -4,16 +4,13 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2 class="wow fadeInUp">What They Says<span class="tiny-border"></span></h2>
-
-                    <ul class="testimonial-list wow fadeIn" data-wow-delay=".25s">
+                    <ul class="testimonial-list wow fadeIn" style="margin-top: 50px" data-wow-delay=".25s">
                         @foreach($comments as $comment)
                             <li>      {{$comment->comment_text}}
                                 <span>{{$comment->sender_name}}</span>
                             </li>
                         @endforeach
                     </ul>
-
-
                 </div>
 
                 <div class="col-md-6">

@@ -21,10 +21,10 @@
                     <li><a href="#section-deco-2">About Us</a></li>
                     <li><a href="#section-services">Services</a></li>
                     <li><a href="#section-portfolio">Projects</a></li>
-                    <li><a href="#section-team">Team</a></li>
-                    <li><a href="#section-fun-facts">How We Work</a></li>
-                    <li><a href="#section-portfolio">Projects</a></li>
+                    <li><a href="#section-how-we-work">How We Work</a></li>
+{{--                    <li><a href="#section-portfolio">Projects</a></li>--}}
 
+                    <li><a href="#section-team">Team</a></li>
 
                     <li><a href="#section-news">Blog</a></li>
                     <li><a href="#section-contact">Contact</a></li>

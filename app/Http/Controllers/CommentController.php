@@ -32,11 +32,20 @@ class CommentController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \App\Http\Requests\StoreCommentRequest  $request
-     * @return \Illuminate\Http\Response
+     * @return string[]
      */
     public function store(StoreCommentRequest $request)
     {
-        //
+        Comment::create([
+            'sender_name' => $request->sender_name,
+            'comment_text' => $request->comment_text,
+            'is_shown' => $request->is_shown,
+            'project_id' => $request->project_id,
+//            'job_description' => $request->job_description,
+        ]);
+
+        return ['message' => 'added Successfully',
+        ];//
     }
 
     /**

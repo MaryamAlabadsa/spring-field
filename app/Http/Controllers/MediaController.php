@@ -43,7 +43,7 @@ class MediaController extends Controller
 
         $media = Media::create([
             'name' => $filename,
-            'original_name' => $request->original_name,
+            'original_name' => $file->getClientOriginalName(),
             'is_main' => $request->is_main,
             'mediaable_id' => $request->mediaable_id,
             'file_type' => $request->file_type,

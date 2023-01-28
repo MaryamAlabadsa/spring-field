@@ -1,4 +1,4 @@
-<section id="section-fun-facts" class="text-light pt30 pb30 hidden" data-bgcolor="#222222">
+<section id="section-fun-facts" class="text-light pt30 pb30 hidden" data-bgcolor="#252a50">
     <div class="container">
 
         <div class="row">

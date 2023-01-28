@@ -8,6 +8,7 @@ use App\Models\News;
 use App\Models\Project;
 use App\Http\Requests\StoreProjectRequest;
 use App\Http\Requests\UpdateProjectRequest;
+use App\Models\ProjectServices;
 use App\Models\Service;
 use App\Models\Teams;
 
@@ -22,10 +23,23 @@ class ProjectController extends Controller
     {
         $services = Service::paginate(3);
         $projects = Project::all();
-        $comments = Comment::paginate(3);
-        $teams = Teams::paginate(8);
-        $allNews = News::paginate(4);
+        $comments = Comment::all();
+        $teams = Teams::all();
+        $allNews = News::all();
         return view('layouts.sections.home.home-index', compact('services', 'projects', 'comments', 'teams', 'allNews'));
+    }
+
+    public function indexvv($id)
+    {
+//        $comments = Comment::paginate(3);
+
+        $teams = Teams::paginate(8);
+        $project = Project::where('id', $id)->first();
+//        $teams = $project->project_team_member;
+//        dd($teams);
+
+
+        return view('layouts.sections.projects.index', ['project' => $project, 'teams' => $teams]);
 
     }
 
@@ -53,11 +67,56 @@ class ProjectController extends Controller
      * Store a newly created resource in storage.
      *
      * @param \App\Http\Requests\StoreProjectRequest $request
-     * @return \Illuminate\Http\Response
+     * @return string[]
      */
     public function store(StoreProjectRequest $request)
     {
-        //
+        $projects = Project::create([
+//            'image' => $filename,
+            'title' => $request->title,
+            'location' => $request->location,
+            'Brief_description' => $request->title,
+            'description' => $request->title,
+            'completed_time' => $request->completed_time,
+        ]);
+
+        if ($request->hasFile('image')) {
+            foreach ($request->image as $asset) {
+                $filename = date('YmdHi') . $asset->getClientOriginalName();
+//                dd($filename);
+                $asset->move(public_path('public/Image'), $filename);
+                $projects->media()->create([
+                    'name' => $filename,
+                    'original_name' => $asset->getClientOriginalName(),
+                    'is_main' => $request->is_main,
+                    'mediaable_id' => $projects->id,
+                    'file_type' => $request->file_type,
+
+                ]);
+            }
+        }
+
+        if ($request->Project_services) {
+            foreach ($request->Project_services as $Project_service) {
+                $projects->projectServices()->create([
+                    'service_id' =>$Project_service,
+                    'project_id' => $projects->id,
+                ]);
+            }
+        }
+
+        if ($request->projectTeamMember) {
+            foreach ($request->projectTeamMember as $projectTeamMember) {
+                $projects->projectTeamMember()->create([
+                    'team_member_id' => $projectTeamMember,
+                    'project_id' => $projects->id,
+                ]);
+            }
+        }
+
+
+        return ['message' => 'added Successfully'
+        ];//
     }
 
     /**
@@ -72,7 +131,7 @@ class ProjectController extends Controller
 
 //        dd( $project->title);
 //        return view('layouts.sections.projects.index', compact($project));
-        return view('layouts.sections.projects.index', ['project' => $project]);
+        return view('layouts.sections.projects.details', ['project' => $project]);
 
     }
 

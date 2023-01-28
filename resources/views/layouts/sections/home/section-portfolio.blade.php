@@ -99,7 +99,7 @@
             @php
                 $string = '';
             @endphp
-            @foreach($project->project_service as $s)
+            @foreach($project->project_service_mm as $s)
                 @php
                     $s = str_replace(' ', '', trim($s));
 
@@ -110,7 +110,7 @@
             <div class="item {{$string}}"
                  style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px); background-size: cover;">
                 <div class="picframe" style="height: 258px; background-size: cover;">
-                    <a href="/postsOrders/{{$project->id}}">
+                    <a href="/home/{{$project->id}}">
                                 <span class="overlay" style="opacity: 0;">
                                     <span class="pf_text">
                                         <span class="project-name">{{$project->title}}</span>

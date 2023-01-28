@@ -36,7 +36,22 @@ class ServiceController extends Controller
      */
     public function store(StoreServiceRequest $request)
     {
-        //
+        $file= $request->file('name');
+        $filename= date('YmdHi').$file->getClientOriginalName();
+        $file-> move(public_path('public/Image'), $filename);
+//         $filename;
+
+        $service = Service::create([
+            'image' => $filename,
+            'title' => $request->title,
+            'Brief' => $request->Brief,
+            'description' => $request->description,
+//            'first_user' => Auth::id(),
+        ]);
+
+        return ['message' => 'added Successfully',
+//            'data' => [PostResource::make($post)],
+        ];//
     }
 
     /**
