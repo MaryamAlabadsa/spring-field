@@ -3986,14 +3986,14 @@ span.fr-img-caption.fr-view.fr-dii.fr-fir {
     }
 }
 /*end-commonstyles library*//*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-body {
-    margin: 0;
-}
+/*html {*/
+/*    font-family: sans-serif;*/
+/*    -ms-text-size-adjust: 100%;*/
+/*    -webkit-text-size-adjust: 100%;*/
+/*}*/
+/*body {*/
+/*    margin: 0;*/
+/*}*/
 /*article,*/
 /*aside,*/
 /*details,*/
@@ -4075,13 +4075,13 @@ img {
 svg:not(:root) {
     overflow: hidden;
 }
-code,
-kbd,
-pre,
-samp {
-    font-family: monospace,monospace;
-    font-size: 1em;
-}
+/*code,*/
+/*kbd,*/
+/*pre,*/
+/*samp {*/
+/*    font-family: monospace,monospace;*/
+/*    font-size: 1em;*/
+/*}*/
 hr {
     box-sizing: content-box;
     height: 0;
@@ -4759,36 +4759,36 @@ a {
 .u-post-content > :last-child {
     margin-bottom: 0;
 }
-.u-block-content p,
-.u-product-desc p,
-.u-product-tab-pane p,
-.u-post-content p {
-    text-decoration: inherit !important;
-    color: inherit !important;
-    font-style: inherit !important;
-    font-size: inherit !important;
-    font-weight: inherit !important;
-    font-family: inherit !important;
-    line-height: inherit !important;
-    letter-spacing: inherit !important;
-    text-transform: inherit !important;
-}
-.u-logo {
-    color: inherit;
-    font-size: inherit;
-    font-family: inherit;
-    line-height: inherit;
-    letter-spacing: inherit;
-    text-transform: inherit;
-    font-style: inherit;
-    font-weight: inherit;
-    text-decoration: none;
-    border: 0 none transparent;
-    outline-width: 0;
-    background-color: transparent;
-    margin: 0;
-    -webkit-text-decoration-skip: objects;
-}
+/*.u-block-content p,*/
+/*.u-product-desc p,*/
+/*.u-product-tab-pane p,*/
+/*.u-post-content p {*/
+/*    text-decoration: inherit !important;*/
+/*    color: inherit !important;*/
+/*    font-style: inherit !important;*/
+/*    font-size: inherit !important;*/
+/*    font-weight: inherit !important;*/
+/*    font-family: inherit !important;*/
+/*    line-height: inherit !important;*/
+/*    letter-spacing: inherit !important;*/
+/*    text-transform: inherit !important;*/
+/*}*/
+/*.u-logo {*/
+/*    color: inherit;*/
+/*    font-size: inherit;*/
+/*    font-family: inherit;*/
+/*    line-height: inherit;*/
+/*    letter-spacing: inherit;*/
+/*    text-transform: inherit;*/
+/*    font-style: inherit;*/
+/*    font-weight: inherit;*/
+/*    text-decoration: none;*/
+/*    border: 0 none transparent;*/
+/*    outline-width: 0;*/
+/*    background-color: transparent;*/
+/*    margin: 0;*/
+/*    -webkit-text-decoration-skip: objects;*/
+/*}*/
 .u-image.u-logo {
     display: table;
     white-space: nowrap;

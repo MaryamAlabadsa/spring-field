@@ -1,12 +1,12 @@
-@charset "utf-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-    font-size: 100%;
-    vertical-align: baseline
-}
+/*@charset "utf-8";*/
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    border: 0;*/
+/*    outline: 0;*/
+/*    font-size: 100%;*/
+/*    vertical-align: baseline*/
+/*}*/
 
 body {
     line-height: 1
@@ -54,9 +54,9 @@ table {
     width: auto !important
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-    display: block
-}
+/*article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {*/
+/*    display: block*/
+/*}*/
 
 audio, canvas, progress, video {
     display: inline-block;
@@ -148,11 +148,11 @@ code, kbd, pre, samp {
     font-size: 1em
 }
 
-button, input, optgroup, select, textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0
-}
+/*button, input, optgroup, select, textarea {*/
+/*    color: inherit;*/
+/*    font: inherit;*/
+/*    margin: 0*/
+/*}*/
 
 button {
     overflow: visible
@@ -228,17 +228,17 @@ td, th {
     padding: 0
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
+/** {*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    box-sizing: border-box*/
+/*}*/
 
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
+/**:before, *:after {*/
+/*    -webkit-box-sizing: border-box;*/
+/*    -moz-box-sizing: border-box;*/
+/*    box-sizing: border-box*/
+/*}*/
 
 input, button, select, textarea {
     /*font-family: inherit;*/
@@ -6193,9 +6193,9 @@ h1 {
 
 html {
     font-size: 10px;
-    -webkit-text-size-adjust: none;
-    -ms-content-zooming: none;
-    margin: 0 !important
+    /*-webkit-text-size-adjust: none;*/
+    /*-ms-content-zooming: none;*/
+    /*margin: 0 !important*/
 }
 
 body {
@@ -6610,11 +6610,11 @@ th.rad-right {
     margin-top: 29px
 }
 
-header {
-    margin-bottom: 50px;
-    position: relative;
-    z-index: 9
-}
+/*header {*/
+/*    margin-bottom: 50px;*/
+/*    position: relative;*/
+/*    z-index: 9*/
+/*}*/
 
 .top-icon-link, .top-highlighted-link, .language-switcher {
     float: left
@@ -9454,14 +9454,14 @@ img.rad-list {
     display: none
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    left: 0;
-    right: 0;
-    z-index: 105;
-    top: 0
-}
+/*header {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    z-index: 105;*/
+/*    top: 0*/
+/*}*/
 
 header .top-navigation > ul > li.level1 > a > span {
     border-bottom: 2px solid transparent;

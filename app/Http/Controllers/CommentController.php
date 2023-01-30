@@ -39,8 +39,8 @@ class CommentController extends Controller
         Comment::create([
             'sender_name' => $request->sender_name,
             'comment_text' => $request->comment_text,
-            'is_shown' => $request->is_shown,
-            'project_id' => $request->project_id,
+//            'is_shown' => $request->is_shown,
+//            'project_id' => $request->project_id,
 //            'job_description' => $request->job_description,
         ]);
 

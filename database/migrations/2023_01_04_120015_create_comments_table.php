@@ -17,13 +17,13 @@ class CreateCommentsTable extends Migration
             $table->id();
             $table->string('sender_name')->nullable();
             $table->text('comment_text')->nullable();
-            $table->boolean('is_shown')->nullable();
-            $table->unsignedBigInteger('project_id');
-
-            $table->foreign('project_id')
-                ->references('id')
-                ->on('Projects')
-                ->onDelete('cascade');
+//            $table->boolean('is_shown')->nullable();
+//            $table->unsignedBigInteger('project_id');
+//
+//            $table->foreign('project_id')
+//                ->references('id')
+//                ->on('Projects')
+//                ->onDelete('cascade');
             $table->timestamps();
 
         });

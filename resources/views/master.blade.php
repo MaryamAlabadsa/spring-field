@@ -79,23 +79,24 @@
 <script src="{{ asset('js/designesia.js') }}"></script>
 <script>
     function truncateText(obj) {
-        // console.log(obj);
-        if ($(obj).parent().find('p').css('height') === '50px') {
-            $(obj).parent().find('p').css('max-height', '245px');
-            $(obj).parent().find('p').css('height', '245px');
-            $(obj).text('load less');
-        } else {
-            $(obj).parent().find('p').css('max-height', '50px');
-            $(obj).parent().find('p').css('overflow', 'hidden');
-            $(obj).text('load more');
-
+        const p = $(obj).parent().find('p');
+        if (p.hasClass('hide')) {
+            p.addClass('show');
+            p.removeClass('hide');
+            $(obj).html('load less <i class="fa fa-chevron-right id-color"></i>');
+        } else if (p.hasClass('show')) {
+            p.removeClass('show');
+            p.addClass('hide');
+            $(obj).html('load more <i class="fa fa-chevron-right id-color"></i>');
         }
     }
+
     function showNews(obj) {
-        // console.log(obj);
         if ($(obj).parent().find('p').hasClass('hide')) {
             $(obj).parent().find('p').addClass('show')
+            $(obj).parent().find('p').removeClass('hide')
         }else if ($(obj).parent().find('p').hasClass('show')) {
+            $(obj).parent().find('p').removeClass('show')
             $(obj).parent().find('p').addClass('hide')
         }
     }

@@ -4,7 +4,10 @@
             <!-- logo begin -->
             <div id="logo">
                 <a href="index.html">
-                    <img class="logo" src="images/logo.png" alt="">
+                    <img class="logo" src="{{ asset('images/logo.png')}}" style="
+    width: 155px;
+    height: 55px;
+">
                     {{--                    <img class="logo-2" src="images/logo-2.png" alt="">--}}
                 </a>
             </div>
@@ -22,7 +25,7 @@
                     <li><a href="#section-services">Services</a></li>
                     <li><a href="#section-portfolio">Projects</a></li>
                     <li><a href="#section-how-we-work">How We Work</a></li>
-{{--                    <li><a href="#section-portfolio">Projects</a></li>--}}
+                    {{--                    <li><a href="#section-portfolio">Projects</a></li>--}}
 
                     <li><a href="#section-team">Team</a></li>
 

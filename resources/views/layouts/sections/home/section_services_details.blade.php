@@ -17,24 +17,24 @@
                                         <div class="u-container-layout u-valign-middle u-container-layout-1">
                                             <h3 class="u-text u-text-default u-text-3">{{ $services[0]->title }}</h3>
                                             <p class="u-text u-text-4"
-                                               style=" height: 320px ;overflow: auto; padding: 15px"
+                                               style=" height: 320px ;overflow: auto; padding-inline-end:15px"
                                             >{{ $services[0]->description }} </p>
                                         </div>
                                     </div>
                                     <div class="u-container-style u-image u-layout-cell u-size-20 u-image-1"
                                          data-image-width="416" data-image-height="626">
                                         <div class="u-container-layout u-container-layout-2">
-                                            <figure class="pic-hover hover-scale mb20">
-                                                                          <span class="center-xy">
-                                    <a class="image-popup" href="{{$services[1]->image_link}}">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
-                                              </span>
-                                                <span class="bg-overlay"></span>
-                                                <img
-                                                    src="{{ $services[1]->image_link }}"
-                                                    style="height: 320px"
-                                                    class="img-responsive" alt="">
-                                            </figure>
+                                            {{--                                            <figure class="pic-hover hover-scale mb20">--}}
+                                            {{--                                                                          <span class="center-xy">--}}
+                                            {{--                                    <a class="image-popup" href="{{$services[1]->image_link}}">--}}
+                                            {{--                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>--}}
+                                            {{--                                              </span>--}}
+                                            {{--                                                <span class="bg-overlay"></span>--}}
+                                            <img
+                                                src="{{ $services[1]->image_link }}"
+                                                style="height: 320px"
+                                                class="img-responsive" alt="">
+                                            {{--                                            </figure>--}}
 
                                         </div>
                                     </div>
@@ -44,7 +44,8 @@
                                             <h3 class="u-text u-text-default u-text-5">
                                                 {{ $services[2]->title }}
                                             </h3>
-                                            <p style=" height: 320px ;overflow: auto;padding: 15px" class="u-text u-text-6">Our
+                                            <p style=" height: 320px ;overflow: auto;padding-inline-end:15px"
+                                               class="u-text u-text-6">Our
                                                 {{ $services[2]->description }}
 
                                             </p>
@@ -58,17 +59,17 @@
                                     <div class="u-container-style u-image u-layout-cell u-size-20 u-image-1"
                                          data-image-width="416" data-image-height="626">
                                         <div class="u-container-layout u-container-layout-2">
-                                            <figure class="pic-hover hover-scale mb20">
-                                                                          <span class="center-xy">
-                                    <a class="image-popup" href="{{$services[0]->image_link}}">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
-                                              </span>
-                                                <span class="bg-overlay"></span>
-                                                <img
-                                                    src="{{ $services[0]->image_link }}"
-                                                    style="height: 320px"
-                                                    class="img-responsive" alt="">
-                                            </figure>
+                                            {{--                                            <figure class="pic-hover hover-scale mb20">--}}
+                                            {{--                                                                          <span class="center-xy">--}}
+                                            {{--                                    <a class="image-popup" href="{{$services[0]->image_link}}">--}}
+                                            {{--                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>--}}
+                                            {{--                                              </span>--}}
+                                            {{--                                                <span class="bg-overlay"></span>--}}
+                                            <img
+                                                src="{{ $services[0]->image_link }}"
+                                                style="height: 320px"
+                                                class="img-responsive" alt="">
+                                            {{--                                            </figure>--}}
 
                                         </div>
                                     </div>
@@ -78,7 +79,8 @@
                                             <h3 class="u-text u-text-default u-text-5">
                                                 {{ $services[1]->title }}
                                             </h3>
-                                            <p style=" height: 320px ;overflow: auto;padding: 15px" class="u-text u-text-6">Our
+                                            <p style=" height: 320px ;overflow: auto;padding-inline-end:15px"
+                                               class="u-text u-text-6">Our
                                                 {{ $services[1]->description }}
 
                                             </p>
@@ -88,17 +90,17 @@
                                     <div class="u-container-style u-image u-layout-cell u-size-20 u-image-1"
                                          data-image-width="416" data-image-height="626">
                                         <div class="u-container-layout u-container-layout-2">
-                                            <figure class="pic-hover hover-scale mb20">
-                                                                          <span class="center-xy">
-                                    <a class="image-popup" href="{{$services[2]->image_link}}">
-                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>
-                                              </span>
-                                                <span class="bg-overlay"></span>
-                                                <img
-                                                    src="{{ $services[2]->image_link }}"
-                                                    style="height: 320px"
-                                                    class="img-responsive" alt="">
-                                            </figure>
+                                            {{--                                            <figure class="pic-hover hover-scale mb20">--}}
+                                            {{--                                                                          <span class="center-xy">--}}
+                                            {{--                                    <a class="image-popup" href="{{$services[2]->image_link}}">--}}
+                                            {{--                                    <i class="fa fa-plus btn-action btn-action-hide"></i></a>--}}
+                                            {{--                                              </span>--}}
+                                            {{--                                                <span class="bg-overlay"></span>--}}
+                                            <img
+                                                src="{{ $services[2]->image_link }}"
+                                                style="height: 320px"
+                                                class="img-responsive" alt="">
+                                            {{--                                            </figure>--}}
 
                                         </div>
                                     </div>

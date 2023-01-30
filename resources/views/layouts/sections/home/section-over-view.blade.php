@@ -3,7 +3,7 @@
     <div class="container" style="background-size: cover;">
         <div class="row" style="background-size: cover;">
             <div class="col-md-6" style="background-size: cover;">
-                <h2>We Proud To Be Awards Winning onstruction Company<span class="tiny-border"></span></h2>
+{{--                <h2>We Proud To Be Awards Winning onstruction Company<span class="tiny-border"></span></h2>--}}
 
                 <div class="row" style="background-size: cover;">
                     <div class="col-md-6" style="background-size: cover;">
@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-md-6" style="background-size: cover;">
-                <img src="images/misc/team-1.png" class="img-responsive mt-20" alt="">
+                <img src="images/sfc-logo2.png" class="img-responsive mt-20" alt="">
             </div>
 
             <div class="clearfix" style="background-size: cover;"></div>

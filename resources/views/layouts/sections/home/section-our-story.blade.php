@@ -7,7 +7,7 @@
                 <div class="inner">
                     <span class="icon"><i class="icon_check"></i></span>
                     <div class="text">
-                        <h3>Spring Field is a design, engineering and project management consultancy that is dedicated
+                        <h3 style=" text-align:justify !important; " >Spring Field is a design, engineering and project management consultancy that is dedicated
                             to making a positive impact on the world. We work closely with our clients to create smart
                             and sustainable solutions for building, transportation, energy and infrastructure projects.
                             We are committed to fostering STEM skills and being an employer of choice. At Spring Field,
@@ -20,7 +20,7 @@
                 <div class="inner">
                     <span class="icon"><i class="icon_check"></i></span>
                     <div class="text">
-                        <h3>Our lived environment is facing rapid change; to face these challenges, we are radically
+                        <h3 style=" text-align:justify !important; " >Our lived environment is facing rapid change; to face these challenges, we are radically
                             transforming the way infrastructure is designed, delivered and operated. Our aim is to help
                             create a world that is diverse, sustainable, full of thriving communities and working better
                             for all.</h3>

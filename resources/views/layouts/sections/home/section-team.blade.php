@@ -12,11 +12,17 @@
                             <img style="height: 262px;width: 461px" src="{{$team_member->image_link}}" class="img-responsive" alt="">
                         </figure>
 
-                        <h3>{{$team_member->name}}</h3>
-                        <span style="height: 71px;overflow: hidden" class="subtitle">{{$team_member->job_description}} <br></span>
-                        <p style="position: relative; color: #848484; font-size: 16px;
-                            line-height: 1.7em; height: 50px ;overflow: hidden" id="job_description">{{$team_member->bio}}
+                        <h3 style=" font-size: 1.0rem;">{{$team_member->name}}</h3>
+                        <span style="height: 71px;overflow: hidden;font-size: 0.9rem;" class="subtitle">{{$team_member->job_description}} <br></span>
+                        <p class="hide" style="   position: relative;
+                            color: #848484;
+                            font-size: 16px;
+                            line-height: 1.7em;
+                            overflow: hidden" id="job_description">{{$team_member->bio}}
                             <br>
+
+                         ;
+
                         </p>
                         <button class="read_more mt10" style="border: transparent;background: transparent;"
                                 id="read_more_btn" onclick="truncateText(this)">load more <i

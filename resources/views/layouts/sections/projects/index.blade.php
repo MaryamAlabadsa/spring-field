@@ -2,67 +2,6 @@
 
 @section('style')
     <link rel="stylesheet" href="{{ asset('css/style2.css') }}" type="text/css">
-    <style>
-        .button-share-project {
-            font-family: inherit;
-            font-weight: 400;
-            background: #f2295b;
-            color: white;
-            padding: 0.35em 0;
-            font-size: 17px;
-            border: none;
-            border-radius: 0.7em;
-            letter-spacing: 0.08em;
-            position: relative;
-            display: flex;
-            align-content: center;
-            align-items: center;
-            overflow: hidden;
-            height: 2.1em;
-            padding-left: 3em;
-            padding-right: 0.7em;
-        }
-
-        .button-share-project .icon {
-            background: #fff;
-            margin-right: 1em;
-            height: 2.2em;
-            width: 2.2em;
-            border-radius: 0.5em;
-            position: absolute;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            left: 0.3em;
-            transition: all .7s;
-        }
-
-        .shere {
-            width: 1.3rem;
-            height: 1.3rem;
-            margin-left: 4px;
-        }
-
-        .button-share-project:hover .icon {
-            width: calc(100% - 0.6rem);
-        }
-
-        .button-share-project:hover .shere {
-            width: calc(100% - 0.6rem);
-            display: none;
-        }
-
-        .button-share-project .icon-shere {
-            color: #f2295b;
-            width: 1.5rem;
-            height: 1.5rem;
-            display: none;
-        }
-
-        .button-share-project:hover .icon .icon-shere {
-            display: flex;
-        }
-    </style>
 @endsection
 @section('content')
 
@@ -113,60 +52,13 @@
                             </ul>
 
                         </nav>
-                        <!--/skipsearch-->
-
-
-                        <!--skipsearch-->
-
 
                         <div class="introtext-container"><p>{{$project->Brief_description}}.</p></div>
 
                         <div class="top-content-wrapper">
                             {{$project->description}}
-
                         </div>
-                        <div class="bottom-links">
-                        </div>
-                        <section id="section-team" data-bgcolor="#f8f8f8">
-                            <div class="container">
-                                <div class="row">
-
-                                    <div class="col-md-12">
-                                        <h2 class="wow fadeInUp">Our Team<span class="tiny-border"></span></h2>
-                                    </div>
-                                    @foreach($project->project_team_mm as $team_member)
-                                        <div class="col-md-3">
-                                            <div class="profile_pic">
-                                                <figure class="pic-hover hover-scale mb30">
-                                                    <img style="height: 262px;width: 461px"
-                                                         src="{{$team_member->image_link}}" class="img-responsive"
-                                                         alt="">
-                                                </figure>
-
-                                                <h3>{{$team_member->name}}</h3>
-                                                <span style="height: 71px;overflow: hidden" class="subtitle">{{$team_member->job_description}} <br></span>
-                                                <p style="position: relative; color: #848484; font-size: 16px;
-                            line-height: 1.7em; height: 50px ;overflow: hidden"
-                                                   id="job_description">{{$team_member->bio}}
-                                                    <br>
-                                                </p>
-                                                <button class="read_more mt10"
-                                                        style="border: transparent;background: transparent;"
-                                                        id="read_more_btn" onclick="truncateText(this)">load more <i
-                                                        class="fa fa-chevron-right id-color"></i></button>
-
-
-                                                <span class="tiny-border"></span>
-                                            </div>
-                                        </div>
-                                    @endforeach
-
-
-                                </div>
-                            </div>
-
-                        </section>
-
+                     @include('layouts.sections.projects.team')
                     </div>
                     {{--                                    project over view begin--}}
                     <div class="col-md-offset-1 col-md-3 col-xs-12">
@@ -185,8 +77,8 @@
                                         <a aria-label="Right Panel Head Link one"
                                            href="/#section-portfolio">{{$service}}</a>
                                     @endforeach
-                                    {{--                                    <a aria-label="Right Panel Head Link one" href="/en/projects/#Nuclear Technology">Nuclear--}}
-                                    {{--                                        Technology</a>--}}
+{{--                                                                        <a aria-label="Right Panel Head Link one" href="/en/projects/#Nuclear Technology">Nuclear--}}
+{{--                                                                            Technology</a>--}}
                                 </p>
 
                                 <div class="overview-section-content">
@@ -202,18 +94,18 @@
 
 
                             </div>
-                            <div class="text-center">
-                                <a href="/#section-contact" class="text-center btn btn-line-black btn-fx mt20"
-                                style="width: 270px; height: 50px"
-                                >Hire Us Now</a>
-                            </div>
+{{--                            <div class="text-center">--}}
+{{--                                <a href="/#section-contact" class="text-center btn btn-line-black btn-fx mt20"--}}
+{{--                                style="width: 270px; height: 50px"--}}
+{{--                                >Hire Us Now</a>--}}
+{{--                            </div>--}}
 
-                            <div class="overview-contact-panel">
-                                <a aria-label="Close Popup" href="javascript:;" class="closePopup"><span
-                                        class="icon-close"><span
-                                            class="zeroHeight">Icon Close</span></span></a>
-                                <p class="overview-section-title">Contact us</p>
-                            </div>
+{{--                            <div class="overview-contact-panel">--}}
+{{--                                <a aria-label="Close Popup" href="javascript:;" class="closePopup"><span--}}
+{{--                                        class="icon-close"><span--}}
+{{--                                            class="zeroHeight">Icon Close</span></span></a>--}}
+{{--                                <p class="overview-section-title">Contact us</p>--}}
+{{--                            </div>--}}
 
                         </div>
 

@@ -83,7 +83,6 @@ class ProjectController extends Controller
         if ($request->hasFile('image')) {
             foreach ($request->image as $asset) {
                 $filename = date('YmdHi') . $asset->getClientOriginalName();
-//                dd($filename);
                 $asset->move(public_path('public/Image'), $filename);
                 $projects->media()->create([
                     'name' => $filename,
