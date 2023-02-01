@@ -7,7 +7,7 @@
                 <div class="padding30" data-bgcolor="#f8f8f8"
                      style="background-color: rgb(248, 248, 248); background-size: cover;">
 
-                    <h3>Send Us Message
+                    <h3 style="font-weight: bold">Send Us Message
                         <span class="tiny-border"></span>
                     </h3>
                     <form name="contactForm" id='contact_form' method="post" action='/home/sendEmail'>

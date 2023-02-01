@@ -77,17 +77,18 @@
 <script src="{{ asset('js/enquire.min.js') }}"></script>
 <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
 <script src="{{ asset('js/designesia.js') }}"></script>
+{{--<script src="{{ asset('css/designesia.js') }}"></script>--}}
 <script>
     function truncateText(obj) {
         const p = $(obj).parent().find('p');
         if (p.hasClass('hide')) {
             p.addClass('show');
             p.removeClass('hide');
-            $(obj).html('load less <i class="fa fa-chevron-right id-color"></i>');
+            $(obj).html('Load Less <i class="fa fa-chevron-right id-color"></i>');
         } else if (p.hasClass('show')) {
             p.removeClass('show');
             p.addClass('hide');
-            $(obj).html('load more <i class="fa fa-chevron-right id-color"></i>');
+            $(obj).html('Load More <i class="fa fa-chevron-right id-color"></i>');
         }
     }
 

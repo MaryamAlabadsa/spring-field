@@ -18003,9 +18003,9 @@ p {
         text-align: left;
     }
 }
-.u-align-center {
-    text-align: center;
-}
+/*.u-align-center {*/
+/*    text-align: center;*/
+/*}*/
 @media (min-width: 1200px) {
     .u-align-center-xl {
         text-align: center;

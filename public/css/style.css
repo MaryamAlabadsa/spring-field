@@ -58,6 +58,7 @@
 @import url("../fonts/font-awesome/css/font-awesome.css");
 @import url("../fonts/elegant_font/HTML_CSS/style.css");
 @import url("../fonts/et-line-font/style.css");
+@import url("../fonts/sfc-font/stylesheet.css");
 
 /* ================================================== */
 /* body */
@@ -67,7 +68,7 @@ html {
 }
 
 body {
-    font-family: 'Fractul Hairline';
+    font-family: 'Fractul';
     /*font-family: "Nunito",Arial, Helvetica, sans-serif;*/
     font-size: 18px;
     font-weight: 400;

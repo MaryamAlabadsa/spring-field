@@ -31,15 +31,11 @@ class ProjectController extends Controller
 
     public function indexvv($id)
     {
-//        $comments = Comment::paginate(3);
-
+        $allNews = News::all();
         $teams = Teams::paginate(8);
         $project = Project::where('id', $id)->first();
-//        $teams = $project->project_team_member;
-//        dd($teams);
 
-
-        return view('layouts.sections.projects.index', ['project' => $project, 'teams' => $teams]);
+        return view('layouts.sections.projects.index', ['project' => $project, 'teams' => $teams, 'allNews' => $allNews]);
 
     }
 

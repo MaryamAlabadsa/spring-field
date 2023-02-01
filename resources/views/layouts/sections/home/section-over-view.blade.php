@@ -3,12 +3,12 @@
     <div class="container" style="background-size: cover;">
         <div class="row" style="background-size: cover;">
             <div class="col-md-6" style="background-size: cover;">
-{{--                <h2>We Proud To Be Awards Winning onstruction Company<span class="tiny-border"></span></h2>--}}
+                {{--                <h2>We Proud To Be Awards Winning onstruction Company<span class="tiny-border"></span></h2>--}}
 
                 <div class="row" style="background-size: cover;">
                     <div class="col-md-6" style="background-size: cover;">
-                        <h3>Our Vision</h3>
-                        <p>To be the leading provider of innovative and sustainable architectural and engineering design
+                        <h3 style="font-weight: bold">Our Vision</h3>
+                        <p>- To be the leading provider of innovative and sustainable architectural and engineering design
                             solutions that enhance the built environment which involve:
 
                             <br> - To create a world where everyone has access to beautiful, functional, and sustainable
@@ -20,8 +20,9 @@
                     </div>
 
                     <div class="col-md-6" style="background-size: cover;">
-                        <h3>Our Mission</h3>
-                        <p>We strive to exceed our clients' expectations by delivering exceptional design, engineering,
+                        <h3 style="margin-left: 35px;font-weight: bold">Our Mission</h3>
+                        <p style=" width: 350px; margin-left: 35px;">
+                            - We strive to exceed our clients' expectations by delivering exceptional design, engineering,
                             and contracting services that are cost-effective, timely, and environmentally responsible as
                             follow:
 
@@ -43,7 +44,7 @@
             </div>
 
             <div class="col-md-6" style="background-size: cover;">
-                <img src="images/sfc-logo2.png" class="img-responsive mt-20" alt="">
+                <img src="images/sfc-logo2.png" style="margin-left: 150px;" class="img-responsive mt-20" alt="">
             </div>
 
             <div class="clearfix" style="background-size: cover;"></div>

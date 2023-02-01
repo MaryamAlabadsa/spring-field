@@ -31,7 +31,7 @@
                 <div class="inner">
                     <span class="icon"><i class="icon_check"></i></span>
                     <div class="text">
-                        <h3>At the inception of our company, Spring Field, we had a vision to excel in civil and
+                        <h3 style="text-align: justify">At the inception of our company, Spring Field, we had a vision to excel in civil and
                             structural engineering. Over time, we have evolved and embraced innovation to become a
                             leader in creating sustainable and smart buildings. Our journey has been one of
                             determination, hard work, and collaboration with our clients to turn their aspirations into

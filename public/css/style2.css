@@ -6188,7 +6188,7 @@ h2, :not().homesection .homesection-counter, :not().homesection .section-top-con
 }
 
 h1 {
-    font-family: 'Flama-Light', Helvetica
+    font-family: 'Fractul'
 }
 
 html {
@@ -6199,7 +6199,7 @@ html {
 }
 
 body {
-    font-family: 'Flama-Book', Helvetica, sans-serif;
+    font-family: 'Fractul';
     color: #000;
     background-color: #fff;
     font-size: 1.8rem;
@@ -11847,15 +11847,15 @@ body.touchDevice .db-col-2 {
 .bottom-related-content .related-content-box .box-subheading, .bottom-related-content .related-content-title, #_cookieConsentWrapper #cookie-agree,
 #_cookieConsentWrapper #cookie-disagree, .signpost-block-type1 h2.signpost-heading, .signpost-type1-box .box-heading, .signpost-block-type2 h2.signpost-heading,
 .signpost-type2-box .box-heading, .signpost-block-type3 h2.signpost-heading, .signpost-type3-box .box-heading, .ir-pr-wrapper .documents-area-title, .contacts-top-section .address-title, .location-box .address-title {
-    font-family: 'Flama-Semibold', Helvetica
+    font-family: 'Fractul'
 }
 
 .top-content-panel .top-content-item, .overview-contact-signpost p.contact-number, .view_all_wrap > a {
-    font-family: 'Flama-Medium', Helvetica
+    font-family: 'Fractul'
 }
 
 .rad-introtext, .content-with-overlay p, .introtext-container p, .overview-section .contact-btn-wrap > a, .rad-link-2, .rad-link-5, .rad-popup {
-    font-family: 'Flama-Basic', Helvetica
+    font-family: 'Fractul'
 }
 
 #_cookieConsentWrapper {
@@ -11990,7 +11990,7 @@ body.safari #_cookieConsentWrapper #cookie-agree:hover {
 }
 
 .tab-content-inner h2, .standard-content-wrapper h2, .module-50-50-main h2, .top-content-wrapper h2, .introtext-container h2 {
-    font-family: 'Flama-Medium';
+    font-family: 'Fractul';
     text-transform: none;
     padding-bottom: 25px
 }
@@ -12199,7 +12199,7 @@ table.rad-tablestyle2 tbody td, table.rad-tablestyle2 tbody th {
 }
 
 .rad-link-3:after {
-    font-family: 'icomoon' !important;
+    font-family: 'Fractul' !important;
     content: "\e900";
     color: inherit;
     font-size: 12px;

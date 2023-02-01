@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>Latest News<span class="tiny-border"></span></h2>
+                <h2 style="font-weight: bold">Latest News<span class="tiny-border"></span></h2>
             </div>
 
 
@@ -16,9 +16,9 @@
                             </div>
 
                             <div class="post-text">
-                                <button style="font-size: 16px;background: none;border: none;font-style: italic;"
+                                <button style="font-size: 16px;background: none;border: none; text-align: justify;font-weight: bold;"
                                         onclick="showNews(this)">{{$news->title}}</button>
-                                <p class="hide">
+                                <p class="hide" style="margin-top: 15px">
                                     {{$news->description}}
                                 </p>
                             </div>

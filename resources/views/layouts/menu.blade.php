@@ -3,7 +3,7 @@
         <div class="col-md-12">
             <!-- logo begin -->
             <div id="logo">
-                <a href="index.html">
+                <a href="#wrapper">
                     <img class="logo" src="{{ asset('images/logo.png')}}" style="
     width: 155px;
     height: 55px;
